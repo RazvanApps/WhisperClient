@@ -1,0 +1,17 @@
+# Core dependencies
+keyboard>=0.13.5     # Windows primary keyboard hooks
+pynput>=1.7.6        # Cross-platform keyboard (Linux/macOS)
+sounddevice>=0.4.6   # Audio recording
+scipy>=1.11.0        # WAV file handling
+requests>=2.31.0     # HTTP client
+numpy>=1.24.0        # Audio processing
+
+# System tray support (cross-platform)
+pystray>=0.19.4
+Pillow>=10.0.0
+
+# Audio feedback (cross-platform)
+playsound>=1.3.0
+
+# Optional: GPT text refinement
+openai>=1.0.0

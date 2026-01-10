@@ -1,0 +1,22 @@
+{
+  "server_url": "http://localhost:8000/v1/audio/transcriptions",
+  "hotkey": "ctrl+shift+space",
+  "sample_rate": 16000,
+  "channels": 1,
+  "language": "en",
+  "min_duration": 0.3,
+  "timeout": 30,
+  "device_index": null,
+  "audio_feedback": true,
+  "recording_mode": "hold",
+  "minimize_to_tray": true,
+  "always_on_top": false,
+  "corrections": {
+    "gpt": "GPT",
+    "api": "API",
+    "claude": "Claude",
+    "openai": "OpenAI"
+  },
+  "gpt_refinement": false,
+  "openai_api_key": ""
+}
